@@ -20,6 +20,26 @@ app.get("/awc/genre", function (req, res) {
   res.render("awcGenre");
 });
 
+app.get("/awc/tier", function (req, res) {
+  res.render("awcTier");
+});
+
+app.get("/awc/special", function (req, res) {
+  res.render("awcSpecial");
+});
+
+app.get("/awc/seasonal", function (req, res) {
+  res.render("awcSeasonal");
+});
+
+app.get("/awc/monthly", function (req, res) {
+  res.render("awcMonthly");
+});
+
+app.get("/awc/collection", function (req, res) {
+  res.render("awcCollection");
+});
+
 app.get("/stats", function (req, res) {
   res.render("stats");
 });
