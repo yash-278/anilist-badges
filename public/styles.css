@@ -98,6 +98,10 @@ hr.solid {
   cursor: pointer;
   max-width: 200px;
 }
+.points {
+  max-width: 400px;
+  margin: auto;
+}
 
 .links {
   margin: 30px 0;
