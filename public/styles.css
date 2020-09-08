@@ -7,6 +7,7 @@
   max-width: 500px;
   display: flex;
   justify-content: space-evenly;
+  font-family: "Montserrat";
 }
 
 @media (min-width: 800px) {
@@ -32,7 +33,8 @@ body {
   background: #da22ff;
   background: -webkit-linear-gradient(to bottom, #485563, #29323c);
   background: linear-gradient(to bottom, #485563, #29323c);
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat";
+  font-weight: 400;
   font-size: 22px;
   min-height: 100vh;
 }
@@ -47,7 +49,7 @@ body {
   min-height: 490px;
   position: relative;
   text-align: center;
-  margin: 30px 10px;
+  margin: 30px 0;
   background: #151f2e;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -70,17 +72,21 @@ body {
 .name {
   color: #fff;
   margin: 20px;
+  font-family: "Montserrat";
+  letter-spacing: 2px;
 }
 .title {
   color: #3d77c2;
   font-size: 14px;
   padding: 8px;
+  font-family: "Montserrat";
 }
 .description {
   font-size: 12px;
   font-weight: 300;
   padding: 10px 22px;
   color: #9fadbd;
+  font-family: "Montserrat";
 }
 
 hr.solid {
@@ -88,7 +94,7 @@ hr.solid {
 }
 
 .message {
-  font-size: 22px;
+  font-size: 20px;
   background: -webkit-linear-gradient(to right, #1da1f2, #0088ff);
   background: linear-gradient(to right, #1da1f2, #0088ff);
   /* box-shadow: 0 0 20px 4px #ffffff, 0 0 20px 0px #0088ff; */
@@ -99,8 +105,7 @@ hr.solid {
   max-width: 200px;
 }
 .points {
-  max-width: 400px;
-  margin: auto;
+  color: white;
 }
 
 .links {
